@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Просмотр стикера</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <style type="text/css">
+        body {
+            width: 960px;
+        }
+
+        .back {
+            position: relative;
+            display: block;
+            height: 477px;
+            width: 960px;
+            background: url("https://4.downloader.disk.yandex.ru/preview/afc1b53b39e1a3b0c3572a636174edd4/mpfs/Z305A_QQd4U-H_sBjN90Ul77QexkYag4tEB7k1Vr8xoeNEvU86xljO0UHFHnhf4UZzkc8ekPf6yAuRwQHTSwCA%3D%3D?uid=0&filename=backjpg&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&size=XXL&crop=0");
+        }
+        a {
+            position: relative;
+            float: right;
+            top: 125px;
+            right: 70px;
+            z-index: 99;
+            text-align: center;
+
+        }
+
+        img {
+            width: 45px;
+            -webkit-transition: ease-out 0.2s;
+            -moz-transition: ease-out 0.2s;
+            -o-transition: ease-out 0.2s;
+            transition: ease-out 0.2s;
+        }
+
+        a:hover img{
+            width: 55px;
+        }
+    </style>
+</head>
+<body>
+<a href=""><img src="sticker.svg"></a>
+<div class="back">
+</div>
+
+
+</body>
+</html>
